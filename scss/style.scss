@@ -1,0 +1,87 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, button {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h3 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.bright-orange {
+  background-color: $bright-orange;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.bright-orange .btn {
+  color: $bright-orange;
+}
+
+.dark-cyan {
+  background-color: $dark-cyan;
+  color: #fff;
+}
+
+.dark-cyan .btn {
+  color: $dark-cyan;
+}
+
+.very-dark-cyan {
+  background-color: $very-dark-cyan;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.very-dark-cyan .btn {
+  color: $very-dark-cyan;
+}
+
+.container {
+  padding: 20px;
+
+  .card {
+    padding: 30px;
+
+    img {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #fff;
+      border: 2px solid #fff;
+      border-radius: 30px;
+      padding: 10px 20px;
+      cursor: pointer;  
+      transition: all 0.4s  ease-in-out;
+    }
+
+    .btn:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}
+
+@import "window";
